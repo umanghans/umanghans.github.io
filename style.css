@@ -1,0 +1,81 @@
+body{/*display: flex;
+	flex-direction: column;*/
+	background: url(background.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	margin: 0px auto;
+}
+h1{ display: flex;
+	color: #FFB4A4;
+	text-align: center;
+	background-color: rgba(100, 17.3, 0,0.8);
+	width: 44%;
+	box-shadow: 4px 4px 5px black;
+}
+
+.container,.initiative-statement,.container2{ 
+	width: 75%;
+	background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	transition: all 1s;
+}
+.container:hover{
+	
+	transform: scale(1.05);
+}
+h3{
+	margin : 20px;
+	display: flex;
+	color: #A71D00;
+	transition: all 1s;
+}
+
+h3:hover{
+	color: red;
+}
+
+.problem-statement,.initiative-statement{
+	color: white;
+	font-size: 2em;
+	transition: all 1s;
+}
+.initiative-statement:hover{
+	
+	transform: scale(1.05);
+}
+
+.initiative-statement,.container2{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	font-style: italic;
+	margin-left: 12.5%;
+	font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.initiative-statement{
+	color: #A4FFC6;
+}
+.container2{
+	margin-top: 0px;
+	color: white;
+	font-style: normal;
+	transition: all 1s;
+}
+
+.container2:hover{
+	transform: scale(1.05);
+}
+
+.knowmore{
+	width: 25%;
+	margin-left: 37.5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #360A00;
+	font-size: 2em;
+	margin-bottom: 5%;
+}

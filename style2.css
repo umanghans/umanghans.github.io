@@ -1,0 +1,23 @@
+body{
+
+	background: url(background.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	margin: 0px auto;
+}
+.abc{
+	border: 5px dotted #FF3100;
+	padding: 5px;
+	position: relative;
+	top:100px;
+	align-items: flex-end;
+	width: 27%;
+	margin-left: 35%;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #5E382F;
+	font-size: 2em;
+}
