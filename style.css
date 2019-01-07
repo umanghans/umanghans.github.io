@@ -8,11 +8,11 @@ body{/*display: flex;
   	font-family: 'Source Sans Pro', sans-serif;
   	margin: 0px auto;
 }
-h1{ display: flex;
+h1{ /*display: flex;*/
 	color: #FFB4A4;
 	text-align: center;
 	background-color: rgba(100, 17.3, 0,0.8);
-	width: 44%;
+	width: 50%;
 	box-shadow: 4px 4px 5px black;
 }
 
