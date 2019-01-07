@@ -12,6 +12,9 @@ h1{ /*display: flex;*/
 	color: #FFB4A4;
 	text-align: center;
 	background-color: rgba(100, 17.3, 0,0.8);
+	-webkit-background-color: rgba(100, 17.3, 0,0.8);
+	-moz-background-color: rgba(100, 17.3, 0,0.8);
+	-o-background-color: rgba(100, 17.3, 0,0.8);
 	width: 50%;
 	box-shadow: 4px 4px 5px black;
 }
@@ -19,6 +22,9 @@ h1{ /*display: flex;*/
 .container,.initiative-statement,.container2{ 
 	width: 75%;
 	background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	-webkit-background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	-moz-background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	-o-background-color: rgba(96.9, 71.8, 84.7, 0.5);
 	transition: all 1s;
 }
 .container:hover{
