@@ -8,7 +8,7 @@ body{/*display: flex;
   	font-family: 'Source Sans Pro', sans-serif;
   	margin: 0px auto;
 }
-h1{ /*display: flex;*/
+.box{ /*display: flex;*/
 	color: #FFB4A4;
 	text-align: center;
 	background-color: rgba(100, 17.3, 0,0.8);
@@ -21,10 +21,10 @@ h1{ /*display: flex;*/
 
 .container,.initiative-statement,.container2{ 
 	width: 75%;
-	background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	/*background-color: rgba(96.9, 71.8, 84.7, 0.5);
 	-webkit-background-color: rgba(96.9, 71.8, 84.7, 0.5);
 	-moz-background-color: rgba(96.9, 71.8, 84.7, 0.5);
-	-o-background-color: rgba(96.9, 71.8, 84.7, 0.5);
+	-o-background-color: rgba(96.9, 71.8, 84.7, 0.5);*/
 	transition: all 1s;
 }
 .container:hover{
@@ -32,9 +32,6 @@ h1{ /*display: flex;*/
 	transform: scale(1.05);
 }
 h3{
-	margin : 20px;
-	display: flex;
-	color: #A71D00;
 	transition: all 1s;
 }
 
@@ -43,8 +40,6 @@ h3:hover{
 }
 
 .problem-statement,.initiative-statement{
-	color: white;
-	font-size: 2em;
 	transition: all 1s;
 }
 .initiative-statement:hover{
@@ -62,12 +57,8 @@ h3:hover{
     font-weight: 300;
     line-height: 1.2;
 }
-.initiative-statement{
-	color: #A4FFC6;
-}
 .container2{
 	margin-top: 0px;
-	color: white;
 	font-style: normal;
 	transition: all 1s;
 }
@@ -81,7 +72,7 @@ h3:hover{
 	margin-left: 37.5%;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: #360A00;
+	color: white;
 	font-size: 2em;
 	margin-bottom: 5%;
 }
